@@ -9,23 +9,23 @@ public class Node {
 		this.value = value;
 	}
 
-	public int getValue() {
+	int getValue() {
 		return value;
 	}
 
-	public Node getPrev() {
+	Node getPrev() {
 		return prev;
 	}
 
-	public void setPrev(Node prev) {
+	void setPrev(Node prev) {
 		this.prev = prev;
 	}
 
-	public Node getNext() {
+	Node getNext() {
 		return next;
 	}
 
-	public void setNext(Node next) {
+	void setNext(Node next) {
 		this.next = next;
 	}
 }
